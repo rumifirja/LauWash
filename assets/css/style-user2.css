@@ -1,0 +1,155 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand';
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url(../img/Login.png);
+}
+
+/* Navbar */
+.navbar {
+    height: 10vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    background-color: #3C4048;
+    height: 60px;
+    width: 750px;
+    border-radius: 50px;
+    font-size: 18px;
+}
+
+nav ul li a {
+    margin: 0 52px;
+    color: #fff;
+}
+
+nav ul li a i {
+    text-decoration: none;
+    list-style: none;
+}
+
+nav h2 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #3C4048;
+}
+
+.user {
+    display: flex;
+}
+
+.user h5 {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #3C4048;
+}
+
+/* CRUD User */
+.report {
+    width: 100%;
+    height: 750px;
+    border-radius: 50px;
+}
+
+.report-card {
+    margin-top: 50px;
+}
+
+.r {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 10px 0 25px 0;
+}
+
+.r:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.report-desc {
+    display: flex;
+    justify-content: center;
+}
+
+.report-desc h3 {
+    font-size: 36px;
+    margin: 2rem 0;
+    color: #26886e;
+}
+
+.cari{
+    margin-left: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.input-control {
+    width: 82%;
+    padding: 7px;
+    box-sizing: border-box;
+    margin-top: 13px;
+}
+
+.btn {
+    background-color: #ceece4;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+
+}
+
+table {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: 'Quicksand', sans-serif;
+    border-collapse: collapse;
+    width: 95%;
+  }
+  
+td, th {
+    border: 1px solid;
+    text-align: left;
+    padding: 8px;
+}
+
+.register {
+    margin: 3rem 3rem;
+}
+
+.register button {
+    background-color: #ceece4;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}

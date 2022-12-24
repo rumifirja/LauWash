@@ -1,0 +1,75 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand';
+}
+
+body {
+    background-color: #2c858e;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 300px;
+    min-height: 200px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: azure;
+    border-radius: 6px;
+}
+
+.container .login h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #3e8f7a;
+}
+
+.container .login h1 span{
+    color: #2c858e;
+}
+
+.login-form {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.btn {
+    padding: 8px 15px;
+    background-color: #ceece4;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #afe5d7;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5.5rem 6rem;
+    font-family: "Montserrat";
+}
+
+.navbar-logo h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #3C4048;
+}
+
+/* Login */
+
